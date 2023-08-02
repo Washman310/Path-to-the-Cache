@@ -6,7 +6,7 @@ function passcheck() {
         return false;
     }
 
-if(document.getElementById('pass1').value == password) {
-    alert('Corect Password');
-}
+    if(document.getElementById('pass1').value == password) {
+        alert('Corect Password');
+    }
 }
