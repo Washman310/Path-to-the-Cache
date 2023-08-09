@@ -3,11 +3,13 @@ var password = "VW8123";
 function passcheck() {
     if(document.getElementById('pass1').value != password) {
         alert('Wrong Password');
-        return false;
+        var nextPage = "passfail.html"
+        return nextPage;
     }
 
     else{
         alert('Correct Password');
-        return true
+        var nextPage = "geocache.html"
+        return nextPage;
     }
 }
