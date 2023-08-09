@@ -8,5 +8,6 @@ function passcheck() {
 
     else{
         alert('Corect Password');
+        return true
     }
 }
