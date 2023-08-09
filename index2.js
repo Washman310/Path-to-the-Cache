@@ -7,7 +7,7 @@ function passcheck() {
     }
 
     else{
-        alert('Corect Password');
+        alert('Correct Password');
         return true
     }
 }
